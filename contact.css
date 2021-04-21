@@ -1,0 +1,73 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.contactform {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    /* height: 700px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contactform label,
+input,
+textarea {
+    width: 1200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+@media (max-width:620px) {
+    ..contactform label,
+    input,
+    textarea {
+        width: 500px;
+    }
+}
+
+@media (max-width:520px) {
+    .contactform label,
+    input,
+    textarea {
+        width: 400px;
+    }
+}
+
+@media (max-width:420px) {
+    .contactform label,
+    input,
+    textarea {
+        width: 300px;
+    }
+}
+
+.contactform textarea {
+    height: 200px;
+    border: 2px solid rgb(17, 0, 0);
+}
+
+.contactform input {
+    margin-bottom: 2px;
+}
+
+.contactform button {
+    margin-top: 20px;
+    border: 1px solid rgb(190, 2, 2);
+    background-color: rgb(253, 252, 252);
+    color: rgb(177, 0, 0);
+    width: 123px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.contactform button:hover {
+    background-color: rgb(194, 0, 0);
+    color: rgb(253, 252, 252);
+}
